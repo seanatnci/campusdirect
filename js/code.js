@@ -99,8 +99,7 @@ function updateScreen(){
 }
 
 // Error handler function.
-function onError()
-{
-	console.log('Error');
-}
+function onError(compassError) {
+    alert('Compass error: ' + compassError.code);
+};
 
